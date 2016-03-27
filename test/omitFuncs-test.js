@@ -42,6 +42,25 @@ describe('#Test omitFuncs', ()=> {
     })
   })
 
+  it('should be omitted funcs deep with null and undefined', ()=> {
+    assert.deepEqual(omitFuncs({
+      x: 'x',
+      y: 'y',
+      xy: {
+        zz() {},
+      },
+      z() {},
+      ox: undefined,
+      xx: null,
+    }), {
+      x: 'x',
+      y: 'y',
+      xy: {},
+      ox: undefined,
+      xx: null,
+    })
+  })
+
   it('it doesnt effect the origin props', ()=> {
     const newProps = omitFuncs(props)
     newProps.deepFunc.a = 'a'
