@@ -61,6 +61,28 @@ describe('#Test omitFuncs', ()=> {
     })
   })
 
+  it('should be omitted funcs with array', ()=> {
+    const newProps  = omitFuncs({
+      x: 'x',
+      y: 'y',
+      xy: {
+        zz() {},
+      },
+      z() {},
+      arr: [1, 2, 3]
+    })
+
+    const expect = {
+      x: 'x',
+      y: 'y',
+      xy: {},
+      arr: [1, 2, 3]
+    }
+    assert.deepEqual(newProps, expect)
+    newProps.arr.push(4)
+    assert.deepEqual(expect.arr, [1,2,3])
+  })
+
   it('it doesnt effect the origin props', ()=> {
     const newProps = omitFuncs(props)
     newProps.deepFunc.a = 'a'
