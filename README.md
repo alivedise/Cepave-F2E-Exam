@@ -2,7 +2,7 @@
 
 Dear candidate:
 
-Please write the code to help it builds pass
+Please write the code to help this builds pass
 
 ### Folder structure
 ```
