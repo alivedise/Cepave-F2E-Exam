@@ -2,7 +2,7 @@
 
 Dear candidate:
 
-Please write the code to help this builds pass
+Please write the code to help this builds pass.
 
 ### Folder structure
 ```
@@ -10,6 +10,10 @@ Cepave-F2E-Exam/
 ├── src/ (test resource files, your code should write here)
 └── test/ (test spec files)
 ```
+
+### Exam rules
+- Don't use any extra library
+- Test time: `1 hour`
 
 ### Pull Request your answer
 Please make a `Github Pull Request` and merge to `master` when you are finish.

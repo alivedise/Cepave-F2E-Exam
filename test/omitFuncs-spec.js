@@ -1,5 +1,5 @@
-const omitFuncs = require('../src/omitFuncs')
-const {assert} = require('chai')
+import omitFuncs from '../src/omitFuncs'
+import {assert} from 'chai'
 
 describe('#Test omitFuncs', ()=> {
   let props

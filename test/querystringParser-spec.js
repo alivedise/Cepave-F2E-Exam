@@ -1,5 +1,5 @@
-const querystringParser = require('../src/querystringParser')
-const {assert} = require('chai')
+import querystringParser from '../src/querystringParser'
+import {assert} from 'chai'
 
 describe('#Test querystringParser', ()=> {
 

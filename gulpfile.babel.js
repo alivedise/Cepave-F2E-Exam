@@ -1,9 +1,10 @@
-const gu = require('gulp')
-const mocha = require('gulp-mocha')
-const istanbul = require('gulp-istanbul')
-const babel = require('gulp-babel')
-const plumber = require('gulp-plumber')
-const guif = require('gulp-if')
+import gu from 'gulp'
+import mocha from 'gulp-mocha'
+import istanbul from 'gulp-istanbul'
+import babel from 'gulp-babel'
+import plumber from 'gulp-plumber'
+import guif from 'gulp-if'
+
 const isDev = process.env.NODE_ENV !== 'production'
 
 gu.task('test', ()=> {
