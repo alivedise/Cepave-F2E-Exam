@@ -15,5 +15,10 @@ Cepave-F2E-Exam/
 - Don't use any extra library
 - Test time: `1 hour`
 
+### Grade
+- The code quality
+- The test coverages
+- Used time
+
 ### Pull Request your answer
 Please make a `Github Pull Request` and merge to `master` when you are finish.
