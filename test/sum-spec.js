@@ -1,20 +1,18 @@
+import test from 'ava'
 import sum from '../src/sum'
-import {assert} from 'chai'
 
-describe('Test #sum', ()=> {
-  it('Basic sum', ()=> {
-    assert.strictEqual(sum(2, 5), 7)
-  })
+test('Basic', (assert)=> {
+  assert.is(sum(2, 5), 7)
+})
 
-  it('sum return as Function', ()=> {
-    assert.strictEqual(sum(2)(5), 7)
-  })
+test('Return as Function', (assert)=> {
+  assert.is(sum(2)(5), 7)
+})
 
-  it('Basic sum with multi arguments', ()=> {
-    assert.strictEqual(sum(2, 5, 3, 10), 20)
-  })
+test('With multi arguments', (assert)=> {
+  assert.is(sum(2, 5, 3, 10), 20)
+})
 
-  it('Basic sum with array arguments', ()=> {
-    assert.strictEqual(sum([2, 5, 3, 10]), 20)
-  })
+test('With array arguments', (assert)=> {
+  assert.is(sum([2, 5, 3, 10]), 20)
 })
