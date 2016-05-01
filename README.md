@@ -1,4 +1,4 @@
-# Cepave F2E Exam [![codeship](https://img.shields.io/codeship/fa845d80-d615-0133-0699-4e3a42acd1da/master.svg)](https://codeship.com/projects/142693) [![Coverage](https://img.shields.io/coveralls/rwu823/Cepave-F2E-Exam.svg)](https://coveralls.io/github/rwu823/Cepave-F2E-Exam)
+# Cepave F2E Exam [![Build Status](https://img.shields.io/travis/rwu823/Cepave-F2E-Exam.svg?branch=master)](https://travis-ci.org/rwu823/Cepave-F2E-Exam) [![Coverage](https://img.shields.io/coveralls/rwu823/Cepave-F2E-Exam.svg)](https://coveralls.io/github/rwu823/Cepave-F2E-Exam)
 
 Dear candidate:
 

@@ -12,8 +12,18 @@
       "babel-register"
     ],
     "files": [
-      "test/omit-funcs-spec.js"
+      "test/*-spec.js"
     ]
+  },
+  "babel": {
+    "presets": [
+      "es2015", "stage-0"
+    ],
+    "env": {
+      "development": {
+        "sourceMaps": "inline"
+      }
+    }
   },
   "author": "Rocky Wu <rwu@cepave.com>",
   "license": "ISC",
