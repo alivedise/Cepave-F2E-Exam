@@ -76,7 +76,7 @@ test('should be omitted funcs with array', assert => {
   assert.deepEqual(expect.arr, [1,2,3])
 })
 
-test('it doesnt effect the origin props', assert => {
+test('it does not affect the origin props', assert => {
   const props = {
     a: 1,
     b: 2,
